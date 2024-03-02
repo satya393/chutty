@@ -18,11 +18,14 @@ public class Attendance {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Integer attendanceId;
-	Date attendeDate;
+//	Date attendeDate;
 	String employeName;
-	String employePhoneNo;
-	Date attendeInTime;
-	Date attendeOutTime;
+	Integer age;
+	String email;
+	String phoneNo;
+	
+//	Date attendeInTime;
+//	Date attendeOutTime;
 	
 	
 	
